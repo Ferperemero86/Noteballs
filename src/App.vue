@@ -1,7 +1,6 @@
-<script setup></script>
-
 <template>
-  <h1>Noteball App</h1>
-</template>
+  <RouterLink to="/">Notes</RouterLink> |
+  <RouterLink to="/stats">Stats</RouterLink>
 
-<style scoped></style>
+  <RouterView />
+</template>
